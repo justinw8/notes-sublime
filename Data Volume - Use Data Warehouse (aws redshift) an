@@ -1,0 +1,8 @@
+Data Volume - Use Data Warehouse (aws redshift) and only store 1 year of notes and activites. For data older then one year old use 3rd party tool like informaticia to access data on Redshift.
+
+Field Platform - Keep FR and intergrate to sfdc with rest interfaces.
+
+Other Requirments
+	whitelist IP address for all services in SFDC and Data Warehouse
+	SS0
+	We are reccmondiating a 3rd party app like Ping This will give LoganSquare the abaility to have a robust Single Sign on solution with the flexibility to extend to other syetems, clouds and mobile apps. Ping will give Logan Square flexibility to have SAML2.0, OpenID and provisining. Ping will aslo plug into current LDAP/ADFS2.0 and Multi Factor Auth. 
